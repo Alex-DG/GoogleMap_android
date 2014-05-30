@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleMap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Action Bar action items -->
+    <string name ="maps_styles_list">Map Styles</string>
+    
+    <string name="action_normal_map">Normal map</string>
+    <string name="action_satellite_map">Satellite map</string>
+    <string name="action_terrain_map">Terrain map</string>
+    <string name="action_hybrid_map">Hybrid map</string>
+    
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search location</string>
+    <string name="action_current_location">Current location</string>
+    <string name="action_delete_markers">Delete all markers</string>
+</resources>
