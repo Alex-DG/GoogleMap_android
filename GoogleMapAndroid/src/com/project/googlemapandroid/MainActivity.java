@@ -38,7 +38,6 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 		
 		// init. google map
 		googleMap = ((MapFragment)getFragmentManager().findFragmentById(R.id.map)).getMap();
-		//marker = googleMap.addMarker(new MarkerOptions().title("You are here").position(new LatLng(0, 0)));	
 	}
 	
 	@Override
@@ -87,7 +86,7 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
 	      Toast.makeText(this, msg.toString(), Toast.LENGTH_SHORT).show(); */
 	      
-	      //Mise à jour des coordonnées
+	      //Mise Ã  jour des coordonnÃ©es
 	      /*final LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());      
 	      googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
 	      marker.setPosition(latLng);*/
@@ -95,7 +94,7 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
 	  @Override
 	  public void onProviderDisabled(final String provider) {
-	      //Si le GPS est désactivé on se désabonne
+	      //If GPS is disable => unsubscribe
 	      if("gps".equals(provider)) {
 	          GPSunsubscribe();
 	      }        
@@ -142,7 +141,7 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
         return true;
 	}
 	
-	 /**
+     /**
      * On selecting action bar icons
      * */
     @Override
