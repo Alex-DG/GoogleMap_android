@@ -78,7 +78,7 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
 	  @Override
 	  public void onLocationChanged(final Location location) {
-	      //On affiche dans un Toat la nouvelle Localisation
+	      //On affiche dans un Toast la nouvelle Localisation
 	      /*final StringBuilder msg = new StringBuilder("lat : ");
 	      msg.append(location.getLatitude());
 	      msg.append( "; lng : ");
